@@ -48,6 +48,10 @@ export default function Root({ children }: PropsWithChildren) {
               src: url('https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTmf3ZGMZpg.woff2') format('woff2');
               font-weight: 700;
             }
+            @font-face {
+              font-family: 'Ionicons';
+              src: url('/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.6148e7019854f3bde85b633cb88f3c25.ttf') format('truetype');
+            }
           `
         }} />
         <ScrollViewStyleReset />
